@@ -1,0 +1,24 @@
+body {
+  font-family: $font;
+  font-size: 18px;
+  color: $blue;
+  line-height: 1.6em;
+}
+
+section,
+.section {
+  margin: 120px 0;
+  padding: 0 100px;
+
+  &.full {
+    padding: 0;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}

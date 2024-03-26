@@ -1,0 +1,11 @@
+.logo-block {
+  padding: 80px 0;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+}

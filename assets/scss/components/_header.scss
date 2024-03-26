@@ -1,0 +1,16 @@
+.header {
+  background: url("../assets/images/bg-header-desktop.png") top center no-repeat;
+  padding: 120px 100px 80px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    max-width: 50%;
+    text-align: center;
+  }
+}

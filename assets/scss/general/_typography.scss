@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+h1,
+h2,
+h3,
+button {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 36px;
+  color: $darkblue;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+  color: $darkblue;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+  color: $darkblue;
+}

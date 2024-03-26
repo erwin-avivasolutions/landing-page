@@ -1,0 +1,36 @@
+.icon-block {
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__top-content {
+    max-width: 50%;
+    text-align: center;
+  }
+
+  &__column {
+    max-width: 33%;
+    text-align: center;
+  }
+
+  .icon {
+    height: 50px;
+    width: 100%;
+    margin: 16px 0 32px;
+
+    &__list {
+      background: url("../assets/icons/icon-blacklist.svg") center no-repeat;
+    }
+
+    &__snippets {
+      background: url("../assets/icons/icon-text.svg") center no-repeat;
+    }
+
+    &__preview {
+      background: url("../assets/icons/icon-preview.svg") center no-repeat;
+    }
+  }
+}

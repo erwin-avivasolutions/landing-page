@@ -1,0 +1,35 @@
+.footer {
+  background: #f4f5f7;
+  padding: 16px 100px;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 30px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+
+    li {
+      a {
+        color: $darkblue;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

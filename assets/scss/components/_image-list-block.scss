@@ -1,0 +1,30 @@
+.image-list-block {
+  .image {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: right;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  &__image-wrapper {
+    max-width: 50%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    padding-left: 80px;
+
+    div {
+      margin: 20px 0;
+    }
+  }
+}
