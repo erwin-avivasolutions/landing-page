@@ -1,6 +1,12 @@
 .header {
-  background: url("../assets/images/bg-header-desktop.png") top center no-repeat;
-  padding: 120px 100px 80px;
+  background: url("../assets/images/bg-header-mobile.png") top center no-repeat;
+  padding: 60px 15px 60px;
+
+  @media ($large) {
+    background: url("../assets/images/bg-header-desktop.png") top center
+      no-repeat;
+    padding: 120px 100px 80px;
+  }
 
   &__wrapper {
     display: flex;
@@ -10,7 +16,10 @@
   }
 
   &__content {
-    max-width: 50%;
     text-align: center;
+
+    @media ($large) {
+      max-width: 50%;
+    }
   }
 }

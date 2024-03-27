@@ -1,19 +1,30 @@
 .icon-block {
   &__wrapper {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
+
+    @media ($large) {
+      gap: 30px;
+      flex-direction: row;
+    }
   }
 
   &__top-content {
-    max-width: 50%;
     text-align: center;
+
+    @media ($large) {
+      max-width: 50%;
+    }
   }
 
   &__column {
-    max-width: 33%;
     text-align: center;
+
+    @media ($large) {
+      max-width: 33%;
+    }
   }
 
   .icon {

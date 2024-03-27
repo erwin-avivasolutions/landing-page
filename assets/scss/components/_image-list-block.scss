@@ -7,21 +7,31 @@
 
   &__wrapper {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    flex-direction: column;
+
+    @media ($large) {
+      flex-direction: row;
+      gap: 110px;
+    }
   }
 
   &__image-wrapper {
-    max-width: 50%;
+    @media ($large) {
+      max-width: 50%;
+    }
   }
 
   &__content {
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 30%;
-    padding-left: 80px;
+
+    @media ($large) {
+      max-width: 30%;
+      padding: 0;
+    }
 
     div {
       margin: 20px 0;

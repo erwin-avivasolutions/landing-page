@@ -7,7 +7,19 @@
   }
 
   &__content {
-    max-width: 50%;
     text-align: center;
+    max-width: 100%;
+
+    @media ($large) {
+      max-width: 50%;
+    }
+  }
+
+  &__image {
+    img {
+      object-fit: contain;
+      width: 100%;
+      height: auto;
+    }
   }
 }
